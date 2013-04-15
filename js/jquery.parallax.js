@@ -505,7 +505,7 @@
 			
 			jQuery.removeData(this, 'parallax');
 			unparallax(this, data.port, data.events);
-			if (bool) { unstyle(data.parallax); }
+			if (bool) { unstyle(data.parallax, jQuery(this)); }
 		});
 	};
 	
